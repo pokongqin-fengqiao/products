@@ -44,3 +44,4 @@ if __name__ == "__main__":
     print(product)
     print(f"是否有库存: {product.is_in_stock}")
     print(f"8折价格: ¥{product.apply_discount(20):.2f}")
+    print("fengqiao")

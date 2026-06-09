@@ -22,4 +22,5 @@ jobs:
         with:
           qoder_personal_access_token: ${{ secrets.QODER_PERSONAL_ACCESS_TOKEN }}
           prompt: |
+            REPO:${{ github.repository }} ISSUE_NUMBER:${{ github.event.issue.number }}
             ${{ github.event.comment.body }}
